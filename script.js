@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Mekanın Sahibi", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/1.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/1.jpg"},
-    {songName: "Everybody Knows", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/2.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/2.jpg"},
-    {songName: "Extreme Ways", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/3.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/3.jpg"},
-    {songName: "Butterflies", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/4.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/4.jpg"},
-    {songName: "The Final Victory", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/5.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/5.jpg"},
-    {songName: "Genius ft. Sia, Diplo, Labrinth", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/6.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/6.jpg"},
-    {songName: "The Comeback Kid", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/7.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/7.jpg"},
-    {songName: "Overdose", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/8.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/8.jpg"},
-    {songName: "Rag'n'Bone Man", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/9.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/9.jpg"},
-    {songName: "Rag'n'Bone Man (Extended)", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/10.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/img/10.jpg"},
+    {songName: "Mekanın Sahibi", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/1.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/1.jpg"},
+    {songName: "Everybody Knows", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/2.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/2.jpg"},
+    {songName: "Extreme Ways", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/3.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/3.jpg"},
+    {songName: "Butterflies", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/4.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/4.jpg"},
+    {songName: "The Final Victory", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/5.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/5.jpg"},
+    {songName: "Genius ft. Sia, Diplo, Labrinth", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/6.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/6.jpg"},
+    {songName: "The Comeback Kid", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/7.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/7.jpg"},
+    {songName: "Overdose", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/8.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/8.jpg"},
+    {songName: "Rag'n'Bone Man", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/9.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/9.jpg"},
+    {songName: "Rag'n'Bone Man (Extended)", filePath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/mp3/10.mp3", coverPath: "https://raw.githubusercontent.com/RoyalZebra/MusicMonkey/master/covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
